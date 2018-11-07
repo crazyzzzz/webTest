@@ -1154,3 +1154,222 @@ com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zon
 2018-11-07 17:57:35.412 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
 2018-11-07 17:57:35.413 [http-nio-8888-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
 2018-11-07 17:57:35.626 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 19:19:53.550 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-11-07 19:19:53.556 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2018-11-07 19:19:53.557 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-07 19:19:53.559 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-11-07 19:19:53.568 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-11-07 19:29:43.261 [restartedMain] INFO  com.course.Application - Starting Application on CNHQ-07075929N with PID 10988 (F:\workspace-sts-3.9.4.RELEASE\DEMO\webTEST\webDemo\target\classes started by 07075929 in F:\workspace-sts-3.9.4.RELEASE\DEMO\webTEST\webDemo)
+2018-11-07 19:29:43.264 [restartedMain] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-11-07 19:29:43.307 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 19:29:43.307 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 19:29:44.273 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2018-11-07 19:29:44.605 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c7901db6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 19:29:44.992 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-11-07 19:29:45.008 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-07 19:29:45.008 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-07 19:29:45.016 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [S:\spring-tool-suite-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/bin/server;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/bin;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/lib/amd64;S:\spring-tool-suite-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;S:\spring-tool-suite-3.9.4.RELEASE\apache-maven-3.5.4\bin;S:\spring-tool-suite-3.9.4.RELEASE\wildfly-13.0.0.Final\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\apache-maven-3.5.4\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\wildfly-13.0.0.Final\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.7.0_06\bin;S:\spring-tool-suite-3.6.4.RELEASE\apache-maven-3.2.5\bin;S:\spring-tool-suite-3.6.4.RELEASE\wildfly-8.2.1.Final\bin;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.7.0_80\bin;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\PROGRA~2\IBM\SQLLIB\BIN;D:\PROGRA~2\IBM\SQLLIB\FUNCTION;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;D:\mysql-5.7.16-winx64\bin;D:\Program Files\TortoiseSVN\bin;F:\Program Files\SlikSvn\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files\Git\cmd;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;D:\spring-tool-suite-3.9.4.RELEASE;;.]
+2018-11-07 19:29:45.103 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-07 19:29:45.103 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1795 ms
+2018-11-07 19:29:45.135 [restartedMain] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-07 19:29:45.139 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-07 19:29:45.139 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-07 19:29:45.140 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-07 19:29:45.140 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-07 19:29:45.960 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-07 19:29:46.072 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-07 19:29:46.138 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-11-07 19:29:46.251 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2018-11-07 19:29:46.312 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-07 19:29:46.333 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-07 19:29:46.389 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-07 19:29:46.574 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_1
+2018-11-07 19:29:46.576 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_2
+2018-11-07 19:29:46.577 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_3
+2018-11-07 19:29:46.579 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_4
+2018-11-07 19:29:46.581 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_5
+2018-11-07 19:29:46.583 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_6
+2018-11-07 19:29:46.585 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_7
+2018-11-07 19:29:46.680 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-11-07 19:29:46.684 [restartedMain] INFO  com.course.Application - Started Application in 3.981 seconds (JVM running for 5.918)
+2018-11-07 19:34:48.742 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-07 19:34:48.742 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-07 19:34:48.748 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2018-11-07 19:34:48.775 [http-nio-8888-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2018-11-07 19:34:55.680 [http-nio-8888-exec-3] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2018-11-07 19:38:31.984 [http-nio-8888-exec-5] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2018-11-07 19:38:52.788 [http-nio-8888-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-07 19:38:52.789 [http-nio-8888-exec-7] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-11-07 19:38:53.062 [http-nio-8888-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 19:51:50.918 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-11-07 19:51:50.925 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2018-11-07 19:51:50.926 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-07 19:51:50.928 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-11-07 19:51:50.938 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-11-07 20:00:13.033 [restartedMain] INFO  com.course.Application - Starting Application on CNHQ-07075929N with PID 11860 (F:\workspace-sts-3.9.4.RELEASE\DEMO\webTEST\webDemo\target\classes started by 07075929 in F:\workspace-sts-3.9.4.RELEASE\DEMO\webTEST\webDemo)
+2018-11-07 20:00:13.037 [restartedMain] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-11-07 20:00:13.212 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 20:00:13.212 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 20:00:20.214 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2018-11-07 20:00:21.015 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$37b22655] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 20:00:25.976 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-11-07 20:00:26.286 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-07 20:00:26.288 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-07 20:00:26.320 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [S:\spring-tool-suite-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/bin/server;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/bin;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/lib/amd64;S:\spring-tool-suite-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;S:\spring-tool-suite-3.9.4.RELEASE\apache-maven-3.5.4\bin;S:\spring-tool-suite-3.9.4.RELEASE\wildfly-13.0.0.Final\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\apache-maven-3.5.4\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\wildfly-13.0.0.Final\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.7.0_06\bin;S:\spring-tool-suite-3.6.4.RELEASE\apache-maven-3.2.5\bin;S:\spring-tool-suite-3.6.4.RELEASE\wildfly-8.2.1.Final\bin;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.7.0_80\bin;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\PROGRA~2\IBM\SQLLIB\BIN;D:\PROGRA~2\IBM\SQLLIB\FUNCTION;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;D:\mysql-5.7.16-winx64\bin;D:\Program Files\TortoiseSVN\bin;F:\Program Files\SlikSvn\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files\Git\cmd;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;D:\spring-tool-suite-3.9.4.RELEASE;;.]
+2018-11-07 20:00:26.759 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-07 20:00:26.759 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 13546 ms
+2018-11-07 20:00:26.824 [restartedMain] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-07 20:00:26.835 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-07 20:00:26.835 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-07 20:00:26.835 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-07 20:00:26.835 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-07 20:00:30.150 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-07 20:00:30.462 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-07 20:00:30.735 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-11-07 20:00:33.014 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2018-11-07 20:00:33.152 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-07 20:00:33.480 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-07 20:00:33.529 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-07 20:00:34.645 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_1
+2018-11-07 20:00:34.647 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_2
+2018-11-07 20:00:34.649 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_3
+2018-11-07 20:00:34.652 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_4
+2018-11-07 20:00:34.656 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_5
+2018-11-07 20:00:34.667 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_6
+2018-11-07 20:00:34.680 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_7
+2018-11-07 20:00:39.597 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-11-07 20:00:39.601 [restartedMain] INFO  com.course.Application - Started Application in 34.53 seconds (JVM running for 50.931)
+2018-11-07 20:02:30.414 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-07 20:02:30.415 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-07 20:02:30.430 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2018-11-07 20:02:30.582 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-07 20:02:30.588 [http-nio-8888-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-11-07 20:02:31.001 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 20:07:54.606 [http-nio-8888-exec-4] ERROR o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=5' at line 1
+### The error may involve com.course.deletesUser-Inline
+### The error occurred while setting parameters
+### SQL: delete user where id=?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=5' at line 1
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=5' at line 1] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=5' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:391)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy69.delete(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:310)
+	at com.course.control.Demo.updateUser(Demo.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-07 20:09:00.416 [restartedMain] INFO  com.course.Application - Starting Application on CNHQ-07075929N with PID 5460 (F:\workspace-sts-3.9.4.RELEASE\DEMO\webTEST\webDemo\target\classes started by 07075929 in F:\workspace-sts-3.9.4.RELEASE\DEMO\webTEST\webDemo)
+2018-11-07 20:09:00.419 [restartedMain] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2018-11-07 20:09:00.463 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-11-07 20:09:00.464 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-11-07 20:09:01.339 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2018-11-07 20:09:01.641 [restartedMain] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be2406c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-07 20:09:02.027 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-11-07 20:09:02.041 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-07 20:09:02.042 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-07 20:09:02.049 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [S:\spring-tool-suite-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/bin/server;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/bin;S:/spring-tool-suite-3.9.4.RELEASE/java/jdk1.8/jdk1.8.0_171/bin/../jre/lib/amd64;S:\spring-tool-suite-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;S:\spring-tool-suite-3.9.4.RELEASE\apache-maven-3.5.4\bin;S:\spring-tool-suite-3.9.4.RELEASE\wildfly-13.0.0.Final\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\java\jdk1.8\jdk1.8.0_171\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\apache-maven-3.5.4\bin;S:\spring-tool-suite-3.9.4.RELEASE\sts-3.9.4.RELEASE\wildfly-13.0.0.Final\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.7.0_06\bin;S:\spring-tool-suite-3.6.4.RELEASE\apache-maven-3.2.5\bin;S:\spring-tool-suite-3.6.4.RELEASE\wildfly-8.2.1.Final\bin;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.7.0_80\bin;S:\spring-tool-suite-3.6.4.RELEASE\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\PROGRA~2\IBM\SQLLIB\BIN;D:\PROGRA~2\IBM\SQLLIB\FUNCTION;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;D:\mysql-5.7.16-winx64\bin;D:\Program Files\TortoiseSVN\bin;F:\Program Files\SlikSvn\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files (x86)\OpenVPN\bin;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;d:\Program Files\Git\cmd;E:\python\pythoninstall\Scripts\;E:\python\pythoninstall\;D:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;D:\spring-tool-suite-3.9.4.RELEASE;;.]
+2018-11-07 20:09:02.130 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-07 20:09:02.130 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1666 ms
+2018-11-07 20:09:02.161 [restartedMain] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-07 20:09:02.166 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-07 20:09:02.166 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-07 20:09:02.166 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-07 20:09:02.166 [restartedMain] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-07 20:09:02.777 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-07 20:09:02.888 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-07 20:09:02.933 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2018-11-07 20:09:03.051 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2018-11-07 20:09:03.112 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-07 20:09:03.126 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-07 20:09:03.157 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-07 20:09:03.315 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_1
+2018-11-07 20:09:03.317 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_2
+2018-11-07 20:09:03.319 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_3
+2018-11-07 20:09:03.320 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_4
+2018-11-07 20:09:03.322 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_5
+2018-11-07 20:09:03.323 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_6
+2018-11-07 20:09:03.324 [restartedMain] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getWithVariableParamsUsingGET_7
+2018-11-07 20:09:03.373 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-11-07 20:09:03.377 [restartedMain] INFO  com.course.Application - Started Application in 3.388 seconds (JVM running for 4.39)
+2018-11-07 20:09:15.499 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-07 20:09:15.499 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-07 20:09:15.507 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2018-11-07 20:09:15.540 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-07 20:09:15.541 [http-nio-8888-exec-1] WARN  com.zaxxer.hikari.util.DriverDataSource - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-11-07 20:09:15.685 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-07 20:10:50.859 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-11-07 20:10:50.865 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2018-11-07 20:10:50.866 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-07 20:10:50.867 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-11-07 20:10:50.882 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

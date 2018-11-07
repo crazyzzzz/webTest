@@ -7,9 +7,13 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.course.model.User;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -27,6 +31,33 @@ public class Demo extends SqlSessionDaoSupport   {
         int count = this.getSqlSession().selectOne("getUserCount");
         return count;
     }
+    
+    @RequestMapping(value="/addUser",method=RequestMethod.POST)
+    @ApiOperation(value = "新增用户数", httpMethod = "POST")
+    public int addUser(@RequestBody User user) {
+        int result = this.getSqlSession().insert("addUser", user);
+        System.out.println("新增用户："+result+"名，成功！");
+        return result;
+    }
+    
+    @RequestMapping(value="/updateUser",method=RequestMethod.POST)
+    @ApiOperation(value = "更新用户", httpMethod = "POST")
+    public int updateUser(@RequestBody User user) {
+        int result = this.getSqlSession().update("updatesUser", user);
+        System.out.println("更新用户："+result+"名，成功！");
+        return result;
+    }
+    
+    @RequestMapping(value="/deleteUser",method=RequestMethod.GET)
+    @ApiOperation(value = "删除用户", httpMethod = "GET")
+    public int updateUser(@RequestParam Integer id) {
+        int result = this.getSqlSession().delete("deletesUser", id);
+        System.out.println("删除用户："+result+"名，成功！");
+        return result;
+    }
+    
+    
+    
     
     @Resource
     public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory){
